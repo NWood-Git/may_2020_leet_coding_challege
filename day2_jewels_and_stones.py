@@ -1,5 +1,6 @@
 # May LeetCoding Challenge - Day 2
 # Jewels and Stones - 771. Jewels and Stones
+# Difficulty - Easy
 # https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3317/
 # https://leetcode.com/problems/jewels-and-stones/
 
@@ -48,11 +49,12 @@ def numJewelsInStones(J: str, S: str) -> int:
 # Submission Detail
 # 254 / 254 test cases passed.
 # Status: Accepted
-# Runtime: 60 ms / 52ms
-# Memory Usage: 13.7 MB / 14 MB / 13.9 MB
+# Runtime: 60 ms / 52ms / 24 ms / 44 ms
+# Memory Usage: 13.7 MB / 14 MB / 13.9 MB / 14 MB
 # Greater than runtime distribution / 
 # Your runtime beats 5.31 % of python3 submissions./
-# Your runtime beats 89.93 % of python3 submissions
+# Your runtime beats 89.93 % of python3 submissions./
+# Your runtime beats 6.71 % of python3 submissions.
 '''
 
 J = "aA"

@@ -1,5 +1,6 @@
 # May LeetCoding Challenge - Day 1
 # First Bad Version - 278. First Bad Version
+# Difficulty - Easy
 # https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3316/
 # https://leetcode.com/problems/first-bad-version/
 
@@ -135,3 +136,4 @@ def firstBadVersion(n):
         if isBadVersion(i) == True:
             return i
 '''
+
