@@ -22,6 +22,11 @@
 # Note: Normally I'd put the helper functions outside the main functions
 # but i did it this way for leetcode
 
+# Used the below site for the int_to_binary and bin_list_to_int functions
+# https://indepth.dev/the-simple-math-behind-decimal-binary-conversion-algorithms/
+
+
+
 def findComplement(num: int) -> int:
     def int_to_binary(x):
         bin_list = []
@@ -66,8 +71,15 @@ print(findComplement(1))
 
 
 
-
-
+# Top solution 8ms
+'''
+def findComplement( num: int) -> int:
+    b_str = bin(num).replace('0b', '')
+    mask_str = ''.join(['1'] * len(b_str))
+    return num ^ int(mask_str, 2)
+# print(findComplement(5))
+# print(findComplement(1))
+'''
 
 
 
