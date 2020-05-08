@@ -37,12 +37,12 @@ def checkStraightLine(coordinates) -> bool:
     return True
 
 
-Submission Detail
-66 / 66 test cases passed.
-Status: Accepted
-Runtime: 56 ms / 64 ms / 56 ms
-Memory Usage: 13.9 MB / 14.2 / 14 MB
-Your runtime beats 92.34 % / 52.57 % / 92.34 % of python3 submissions.
+# Submission Detail
+# 66 / 66 test cases passed.
+# Status: Accepted
+# Runtime: 56 ms / 64 ms / 56 ms
+# Memory Usage: 13.9 MB / 14.2 / 14 MB
+# Your runtime beats 92.34 % / 52.57 % / 92.34 % of python3 submissions.
 
 
 print(checkStraightLine([[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]))
